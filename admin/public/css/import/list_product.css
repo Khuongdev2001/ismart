@@ -1,0 +1,245 @@
+/*LIST PRODUCT*/
+
+#upload-thumb #thumb_preview {
+    width: 150px;
+    height: 150px;
+}
+
+#site #content .table-responsive {
+    display: table;
+    min-height: 500px;
+}
+
+#site #content #table_order {
+    min-height: 400px;
+}
+
+#site #content .btn-back {
+    background: linear-gradient(100deg, #e67e22, #c0392b);
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+#site #list_info_order {
+    background: #f7f7f7;
+    padding: 20px;
+}
+
+.tbody-thumb {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+#box_show_seach {
+    background: #ffff;
+    width: 100%;
+    top: 31px;
+    padding: 10px;
+    box-shadow: 0px 1px 2px #000;
+    border-radius: 2px;
+    display: none;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+#box_show_seach li a {
+    color: #000;
+}
+
+.tbody-thumb img {
+    transition: transform 0.3s;
+}
+
+.tbody-thumb img:hover {
+    transform: scale(1.2);
+}
+
+#list_data .btn-toggle-status {
+    -webkit-appearance: none;
+    border: 1px solid #95a5a6;
+    padding: 10px 19px;
+    border-radius: 15px;
+    position: relative;
+}
+
+#list_data .btn-toggle-status:checked {
+    background: #2ecc71;
+    transition: background-color, 0.3s;
+}
+
+#list_data .btn-toggle-status:checked::before {
+    left: 17px;
+}
+
+#list_data .btn-toggle-status::before {
+    content: "";
+    padding: 10px;
+    box-shadow: 0px 0px 3px #46555d;
+    position: absolute;
+    border-radius: 11px;
+    top: 0px;
+    left: 0px;
+    transition: left 0.3s;
+    background: #fff;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loading #spinner-loading {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    border: .25em solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: spinner-border .75s linear infinite;
+    animation: spinner-loading 1.7s linear infinite
+}
+
+#loading #inner-loading img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+@keyframes spinner-loading {
+    0% {
+        transform: rotate(0deg);
+        color: #1abc9c;
+    }
+    30% {
+        transform: rotate(360deg);
+        color: #b8422d;
+    }
+    60% {
+        transform: rotate(720deg);
+        color: #b13c9f;
+    }
+    100% {
+        transform: rotate(1080deg);
+        color: #b33f3f;
+    }
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.z-100 {
+    z-index: 100;
+}
+
+
+/* xóa ảnh thành phần trong slider */
+
+.sider .img_slider_preview {
+    position: relative;
+}
+
+.sider .img_slider_preview span {
+    position: absolute;
+    left: 18px;
+    top: 3px;
+    color: #fff;
+    display: none;
+    transition: all 0.5s;
+}
+
+#popup-delete {
+    display: none;
+    z-index: 10;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+#popup-delete .popup-bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.popup-open {
+    overflow: hidden;
+    padding-right: 17px;
+}
+
+#popup-delete.active-popup-delete {
+    display: flex !important;
+}
+
+#popup-delete .popup-dialog .action-delete {
+    padding: 10px;
+    margin: 5px 10px;
+    background: linear-gradient(5deg, #1abc9c, transparent);
+    color: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    transition: transform 0.1s;
+}
+
+#popup-delete .popup-dialog li>button:hover {
+    transform: matrix(1, 0, 0, 1, 0, -3);
+}
+
+#popup-delete .popup-dialog .action-update {
+    padding: 10px;
+    margin: 5px 10px;
+    background: linear-gradient(108deg, #e74c3c, #2ecc71);
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    transition: transform 0.1s;
+}
+
+
+/*  preview picture delete sidebar */
+
+#popup-delete .box-preview img {
+    display: inline-block;
+}
+
+#popup-delete .popup-dialog {
+    background: #fff;
+    padding: 20px;
+    z-index: 100;
+    width: 410px;
+    right: 25%;
+    animation: loading .35s forwards;
+    box-shadow: 0px 0px 1px #000;
+}
+
+#popup-delete .popup-dialog .box-preview {
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+@keyframes loading {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2)
+    }
+}

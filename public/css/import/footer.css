@@ -1,0 +1,286 @@
+        /*FOOTER*/
+        
+        #footer-wp #foot-body {
+            padding: 50px 0px;
+        }
+        
+        #footer-wp #foot-body .block {
+            float: left;
+            width: 25%;
+            padding-left: 30px;
+        }
+        
+        #footer-wp #foot-body .block:first-child {
+            padding-left: 0;
+        }
+        
+        #info-company .title {
+            font-size: 28px;
+            font-family: 'Roboto Medium';
+            font-weight: normal;
+            color: #da1818;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+        }
+        
+        #info-company .desc,
+        #newfeed .desc {
+            font-family: 'Roboto Light';
+            text-align: justify;
+            color: #6d6d6d;
+            margin-bottom: 25px;
+        }
+        
+        .menu-ft .title,
+        #newfeed .title {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .menu-ft .list-item li {
+            margin-bottom: 10px;
+        }
+        
+        .menu-ft .list-item li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .menu-ft .list-item li p {
+            position: relative;
+            color: #000;
+            font-family: 'Roboto Light';
+            padding-left: 25px;
+        }
+        
+        .menu-ft .list-item li:nth-child(1) p:before,
+        .menu-ft .list-item li:nth-child(2) p:before,
+        .menu-ft .list-item li:nth-child(3) p:before {
+            position: absolute;
+            font-family: 'FontAwesome';
+            top: 0;
+            left: 0;
+        }
+        
+        .menu-ft .list-item li:nth-child(1) p:before {
+            content: '\f041';
+        }
+        
+        .menu-ft .list-item li:nth-child(2) p:before {
+            content: '\f095';
+        }
+        
+        .menu-ft .list-item li:nth-child(3) p:before {
+            content: '\f0e0';
+        }
+        
+        #info-shop .list-item li a {
+            position: relative;
+            color: #000;
+            font-family: 'Roboto Light';
+            padding-left: 20px;
+        }
+        
+        #info-shop .list-item li a:before {
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 0;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: #da1818;
+            transform: translateY(-50%);
+        }
+        
+        #form-reg #sm-reg {
+            display: block;
+            width: 100%;
+            background: #da1818;
+            border: none;
+            outline: none;
+            padding: 10px 0px;
+            text-transform: uppercase;
+            color: #fff;
+            font-family: 'Roboto Medium';
+            line-height: normal;
+        }
+        
+        #form-reg #sm-reg:hover {
+            background: #c10f0f;
+        }
+        
+         ::-webkit-input-placeholder {
+            /* Chrome/Opera/Safari */
+            color: #999;
+            font-family: 'Roboto Light';
+            font-size: 13px;
+        }
+        
+         ::-moz-placeholder {
+            /* Firefox 19+ */
+            color: #999;
+            font-family: 'Roboto Light';
+            font-size: 13px;
+        }
+        
+         :-ms-input-placeholder {
+            /* IE 10+ */
+            color: #999;
+            font-family: 'Roboto Light';
+            font-size: 13px;
+        }
+        
+         :-moz-placeholder {
+            /* Firefox 18- */
+            color: #999;
+            font-family: 'Roboto Light';
+            font-size: 13px;
+        }
+        
+        #foot-bot {
+            background: #da1818;
+            text-align: center;
+            padding: 10px 0px;
+        }
+        
+        #foot-bot #copyright {
+            color: #fff;
+            line-height: normal;
+            font-family: 'Roboto Light';
+        }
+        /*
+pagging
+*/
+        
+        #list-paging li {
+            float: left;
+        }
+        
+        #list-paging li:hover {
+            background: #33443317;
+        }
+        
+        #list-paging li a {
+            color: #000;
+            display: inline-block;
+            font-size: 15px;
+            padding: 5px 10px;
+        }
+        
+        #list-paging li a.active {
+            color: #fff;
+            background: #e74c3c;
+            box-shadow: 0px 0px 3px #ff0a0abf;
+        }
+        /* chat */
+        
+        #box-chat {
+            position: fixed;
+            bottom: 0px;
+            right: 60px;
+            width: 280px;
+        }
+        
+        #box-chat #box-diglog {
+            display: none;
+            background: #f7f7f7;
+            box-shadow: 0px 0px 1px;
+            /* display: none; */
+        }
+        
+        #box-chat #btn-open-chat {
+            background: #e74c3c;
+            padding: 5px 40px;
+            color: #fff;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            position: absolute;
+            bottom: 0px;
+            z-index: -10;
+            right: 0px;
+        }
+        
+        #box-chat #box-diglog #top-chat {
+            background: #e74c3c;
+            color: #fff;
+            padding: 10px 15px;
+        }
+        
+        #box-chat #box-diglog #top-chat .btn-exit {
+            position: absolute;
+            right: 40px;
+            cursor: pointer;
+            top: 10px;
+        }
+        
+        #box-chat #box-diglog #body-chat {
+            margin: 10px 0px;
+            padding: 10px;
+            height: 250px;
+            overflow: auto
+        }
+        
+        #box-chat #box-diglog #body-chat::-webkit-scrollbar {
+            width: 5px;
+        }
+        
+        #box-chat #box-diglog #body-chat::-webkit-scrollbar-thumb {
+            background: #e74c3c;
+        }
+        
+        #box-diglog #body-chat li>a {
+            color: #fff;
+            padding: 5px;
+            width: 100px;
+            display: block;
+            text-align: center;
+            margin: 15px 0px;
+        }
+        
+        #box-diglog #body-chat .login a {
+            background: linear-gradient(45deg, #e74c3c, #e67e22);
+        }
+        
+        #box-diglog #body-chat .reg a {
+            background: linear-gradient(45deg, #115b8c, #4aff97);
+        }
+        
+        #box-diglog #body-chat .mes-diglog {
+            margin: 10px 0px;
+        }
+        
+        #box-diglog #body-chat .mes-diglog::after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+        
+        #box-diglog #body-chat li>div {
+            padding: 5px;
+            display: inline-block;
+        }
+        
+        #box-diglog #body-chat .mes-send {
+            background: #ceeafd;
+            float: right;
+            box-shadow: 0px 0px 4px #908282;
+        }
+        
+        #box-diglog #body-chat .mes-receive {
+            background: #fff;
+            float: left;
+            box-shadow: 0px 0px 4px #908282;
+        }
+        
+        #box-diglog #footer-chat {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px 5px;
+        }
+        
+        #box-diglog #footer-chat #input-chat {
+            resize: none;
+            padding: 5px 10px;
+        }

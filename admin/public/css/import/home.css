@@ -1,0 +1,8 @@
+/*Form error*/
+
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0px 5px;
+}

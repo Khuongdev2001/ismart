@@ -1,0 +1,48 @@
+body {
+    background: url("../images/admin/bg-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form-login {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #fff;
+}
+
+#form-login .form-group {
+    z-index: 10;
+}
+
+#form-login .form-group .label_field {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    z-index: -10;
+    transition: all 0.2s;
+}
+
+#form-login .form-group .label_field.active {
+    top: -20px;
+    font-size: 15px;
+}
+
+#form-login .form-group input {
+    padding: 5px 10px;
+    background: none;
+    border: 1px solid #e74c3c;
+}
+
+#form-login .form-group .alert {
+    font-size: 10px;
+}
+
+
+/* error*/
+
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 10px;
+}

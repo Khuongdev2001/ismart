@@ -1,0 +1,91 @@
+/*ADD CAT*/
+
+.add-cat-page #detail-page .section-detail label,
+.section-detail label {
+    display: block;
+    padding-bottom: 10px;
+    font-family: 'Roboto Medium';
+    font-weight: normal;
+}
+
+.add-cat-page #detail-page .section-detail input[type="text"] {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.add-cat-page #detail-page .section-detail textarea {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.add-cat-page #detail-page .section-detail select {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+#uploadFile:hover button#btn_upload {
+    display: block;
+    transition: all 0.5s;
+}
+
+button#btn_upload {
+    display: none;
+}
+
+#uploadFile {
+    display: inline-block;
+}
+
+.add-cat-page #detail-page .section-detail #btn_upload,
+.section-detail #btn_upload {
+    top: 70px;
+    left: 47px;
+    background: tomato;
+    outline: none;
+    border: navajowhite;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.add-cat-page #detail-page .section-detail button:hover {
+    background: #2980b9;
+}
+
+#btn-upload-thumb {
+    font-size: 13px;
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+#uploadFile {
+    margin-bottom: 15px;
+}
+
+#uploadFile img {
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+#content .sider.box-preview {
+    height: 55px;
+    overflow: hidden;
+}
+
+#content .sider.box-preview li:not(.rec-preview) {
+    width: 40px;
+    margin: 0px 5px;
+}
+
+#content .sider.box-preview .rec-preview {
+    border: 1px solid #e67e22;
+}

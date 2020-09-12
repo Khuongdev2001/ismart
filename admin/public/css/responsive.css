@@ -1,0 +1,23 @@
+/*RESPONSIVE*/
+
+@media screen and (max-width:1024px) {
+    /*-----content---------*/
+    #header-wp #btn-menu.show {
+        display: inline-block;
+    }
+    #sidebar {
+        position: absolute;
+        left: -220px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /*-----content---------*/
+}
+
+@media screen and (max-width:480px) {
+    /*-----content---------*/
+    #form-login {
+        width: 70%;
+    }
+}

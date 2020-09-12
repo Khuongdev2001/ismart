@@ -1,0 +1,35 @@
+#box-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#box-dashboard>div {
+    flex: 0 1 250px;
+    margin: 10px;
+    color: #fff;
+}
+
+#box-dashboard #post {
+    background: #e74c3c;
+}
+
+#box-dashboard #product {
+    background: #294252;
+}
+
+#box-dashboard #sale {
+    background: #42a222;
+}
+
+#box-dashboard #customer {
+    background: #a9a9a9;
+}
+
+#box-dashboard>div .card-title {
+    font-size: 20px;
+}
+
+#box-dashboard>div .detail {
+    color: #fff;
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+table .allow-seen {
+    -webkit-appearance: none;
+    width: 40px;
+    height: 20px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #95a5a6;
+    box-shadow: 0px 0px 3px #7f8c8d;
+    transition: background-color 0.4s;
+}
+
+table .allow-seen::after {
+    content: "";
+    padding: 8px;
+    background: #fff;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #7f8c8d;
+    transition: left 0.4s;
+}
+
+table .allow-seen:checked::after {
+    left: 20px;
+}
+
+table .allow-seen:checked {
+    background: #2ecc71;
+}

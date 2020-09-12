@@ -1,0 +1,98 @@
+#wp-wrapper #wrapper {
+    width: 840px;
+    margin: 25px auto;
+    padding: 10px 30px;
+}
+
+#wrapper #top-wrapper,
+#top-form {
+    margin: 40px 0px;
+}
+
+#wp-wrapper #wrapper .section-title,
+#wp-wrapper #title-form {
+    font-size: 20px;
+}
+
+#wp-wrapper #wrapper #body-wrapper,
+#wrapper #form-reg {
+    background: #fff;
+    padding: 20px;
+}
+
+#body-wrapper #form-login input,
+#form-reg input,
+#form-reg textarea {
+    display: block;
+    width: 100%;
+    padding: 5px 70px 5px 10px;
+    margin: 15px 0px;
+}
+
+#body-wrapper #form-login .error,
+.error,
+#form-reg #notification {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+/* option login*/
+
+#body-wrapper #box-option-login .option {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 10px 5px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#box-option-login #notification {
+    color: tomato;
+}
+
+#body-wrapper #box-option-login .facebook {
+    background: #2980b9;
+}
+
+#body-wrapper #box-option-login .google {
+    background: #c0392b;
+}
+
+#body-wrapper #box-option-login .option a {
+    padding: 10px;
+    color: #fff;
+}
+
+#body-wrapper #form-reg #sucess {
+    color: #15bc5c;
+    font-size: 10px;
+}
+
+#body-wrapper #form-login .btn-login,
+#form-reg #btn_reg {
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background: #e67e22;
+    color: #fff;
+}
+
+#form-reg #toggle-seen {
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 10px;
+}
+
+#form-reg #send_asset_token {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background: #e67e22;
+    padding: 5px;
+    font-size: 10px;
+    color: #fff;
+    cursor: pointer;
+}
